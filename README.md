@@ -32,7 +32,7 @@ The Movie List App is a web application built with Next.js, React, TypeScript, R
 - src/
 - ├── components/ # React components
 - ├── hooks/ # Custom React hooks
-- ├── pages/ # Next.js pages
+- ├── app/ # Next.js app
 - ├── styles/ # CSS and Tailwind CSS files
 - ├── utils/ # Utility functions
 - │
@@ -70,7 +70,7 @@ Contributions to the Movie List App are welcome! If you have suggestions for imp
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
 
