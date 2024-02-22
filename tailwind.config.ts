@@ -12,10 +12,10 @@ const config: Config = {
         sans: ["var(--font-manrope)"],
       },
       fontWeight: {
-        regular: "400", // Regular
-        medium: "500", // Medium
-        "semi-bold": "600", // Semi Bold
-        bold: "700", // Bold
+        regular: "400",
+        medium: "500",
+        "semi-bold": "600",
+        bold: "700",
       },
       colors: {
         // Absolute Colors
