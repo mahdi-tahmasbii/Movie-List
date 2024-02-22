@@ -70,7 +70,7 @@ Contributions to the Movie List App are welcome! If you have suggestions for imp
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT](./MIT) License. See the [LICENSE](./LICENSE) file for details.
 
 
 
