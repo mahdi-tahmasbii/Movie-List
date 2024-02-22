@@ -62,7 +62,7 @@ To run the Movie List App locally, follow these steps:
        or
    yarn dev
    ```
-- Open your web browser and navigate to #(http://localhost:3000) to view the app.
+- Open your web browser and navigate to [http://localhost:3000](http://localhost:3000)  to view the app.
 
 ## Contributing
 
