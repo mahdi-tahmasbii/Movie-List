@@ -40,3 +40,39 @@ The Movie List App is a web application built with Next.js, React, TypeScript, R
 - ├── .prettierrc # Prettier configuration
 - ├── next-env.d.ts # Next.js environment types
 - └── tsconfig.json # TypeScript configuration
+
+
+## Getting Started
+
+To run the Movie List App locally, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Navigate to the project directory using the terminal.
+3. Install dependencies using npm or yarn:
+
+   ```bash
+   npm install
+       or
+   yarn install
+   ```
+- Start the development server:
+
+   ```bash
+   npm run dev
+       or
+   yarn dev
+   ```
+- Open your web browser and navigate to #(http://localhost:3000) to view the app.
+
+## Contributing
+
+Contributions to the Movie List App are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request. For major changes, please discuss them first by opening an issue.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+
+
+    
