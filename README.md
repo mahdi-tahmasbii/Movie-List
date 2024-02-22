@@ -29,14 +29,14 @@ The Movie List App is a web application built with Next.js, React, TypeScript, R
 
 ## Project Structure
 
-src/
-├── components/ # React components
-├── hooks/ # Custom React hooks
-├── pages/ # Next.js pages
-├── styles/ # CSS and Tailwind CSS files
-├── utils/ # Utility functions
-│
-├── .eslintrc.js # ESLint configuration
-├── .prettierrc # Prettier configuration
-├── next-env.d.ts # Next.js environment types
-└── tsconfig.json # TypeScript configuration
+- src/
+- ├── components/ # React components
+- ├── hooks/ # Custom React hooks
+- ├── pages/ # Next.js pages
+- ├── styles/ # CSS and Tailwind CSS files
+- ├── utils/ # Utility functions
+- │
+- ├── .eslintrc.js # ESLint configuration
+- ├── .prettierrc # Prettier configuration
+- ├── next-env.d.ts # Next.js environment types
+- └── tsconfig.json # TypeScript configuration
