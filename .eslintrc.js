@@ -1,8 +1,37 @@
 module.exports = {
-	extends: ['next/core-web-vitals', 'prettier', 'eslint-config-prettier'],
-	rules: {
-		'no-console': 'warn',
-		'no-unused-vars': 'warn',
-	},
-	root: true,
+  env: {
+    browser: true,
+    es2021: true,
+  },
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "prettier",
+  ],
+  overrides: [
+    {
+      env: {
+        node: true,
+      },
+      files: [".eslintrc.{js,cjs}"],
+      parserOptions: {
+        sourceType: "script",
+      },
+    },
+  ],
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
+    ecmaVersion: 2021,
+    sourceType: "module",
+  },
+  plugins: ["@typescript-eslint", "react"],
+  rules: {
+    "react/react-in-jsx-scope": "off",
+  },
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
 };
