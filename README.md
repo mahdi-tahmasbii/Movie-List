@@ -41,7 +41,6 @@ The Movie List App is a web application built with Next.js, React, TypeScript, R
 - ├── next-env.d.ts # Next.js environment types
 - └── tsconfig.json # TypeScript configuration
 
-
 ## Getting Started
 
 To run the Movie List App locally, follow these steps:
@@ -55,14 +54,16 @@ To run the Movie List App locally, follow these steps:
        or
    yarn install
    ```
+
 - Start the development server:
 
-   ```bash
-   npm run dev
-       or
-   yarn dev
-   ```
-- Open your web browser and navigate to [http://localhost:3000](http://localhost:3000)  to view the app.
+  ```bash
+  npm run dev
+      or
+  yarn dev
+  ```
+
+- Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to view the app.
 
 ## Contributing
 
@@ -71,8 +72,3 @@ Contributions to the Movie List App are welcome! If you have suggestions for imp
 ## License
 
 This project is licensed under the [MIT](./MIT) License. See the [LICENSE](./LICENSE) file for details.
-
-
-
-
-    
