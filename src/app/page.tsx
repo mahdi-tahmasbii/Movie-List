@@ -1,10 +1,10 @@
-import LandingSlider from "@/components/LandingSlider/LandingSlider";
+import MoviesSlider from "@/components/Movies&ShowsComponents/MoviesSlider/MoviesSlider";
 
 const Home = () => {
   return (
     <>
       <div className="flex items-center justify-center">
-        <LandingSlider />
+        <MoviesSlider />
       </div>
     </>
   );

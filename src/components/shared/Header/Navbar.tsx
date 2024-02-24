@@ -71,17 +71,20 @@ export default function HeaderNavbar() {
         </div>
 
         <Collapse open={openNav} className="rounded-lg bg-white">
-          <div className="m-5 flex justify-end">
+          <div className="absolute right-5 m-5 mt-6 flex justify-end">
             <UserButton />
           </div>
-          <NavList />
+          <div className="ml-6 mt-5">
+            <NavList />
+          </div>
           <div className="flex items-center gap-x-1">
             <Button
               placeholder={""}
               fullWidth
-              variant="text"
+              variant="filled"
+              color="black"
               size="sm"
-              className=""
+              className="m-5"
             >
               <AuthButton />
             </Button>
