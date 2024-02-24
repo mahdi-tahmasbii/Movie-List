@@ -1,5 +1,5 @@
 import React from "react";
-import GenresSlider from "@/components/Landing/GenresSlider/GenresSlider";
+import GenresSlider from "@/components/Movies&ShowsComponents/GenresSlider/GenresSlider";
 
 const Genres = () => {
   return (

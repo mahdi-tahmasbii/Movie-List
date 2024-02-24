@@ -1,9 +1,9 @@
 import Image from "next/image";
 import CarouselStylesType from "@/types/CarouselStylesType";
-import ChevronLeftIcon from "@/assets/icons/LandingIcons/LandingSlider/ChevronLeftIcon.svg";
-import ChevronRightIcon from "@/assets/icons/LandingIcons/LandingSlider/ChevronRightIcon.svg";
+import ChevronLeftIcon from "@/assets/icons/Movies&ShowsIcons/MoviesSlider/ChevronLeftIcon.svg";
+import ChevronRightIcon from "@/assets/icons/Movies&ShowsIcons/MoviesSlider/ChevronRightIcon.svg";
 
-export const LandingSliderTheme: CarouselStylesType = {
+export const MoviesSliderTheme: CarouselStylesType = {
   carousel: {
     defaultProps: {
       prevArrow: ({ loop, handlePrev, firstIndex }) => {
