@@ -4,7 +4,7 @@ import GenresSlider from "@/components/Landing/GenresSlider/GenresSlider";
 const Genres = () => {
   return (
     <>
-      <div >
+      <div>
         <GenresSlider />
       </div>
     </>
