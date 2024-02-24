@@ -1,12 +1,12 @@
 import React from "react";
 import { Typography, Button } from "@material-tailwind/react";
 import Image from "next/image";
-import PlayIcon from "@/assets/icons/LandingSlider/PlayIcon.svg";
-import LikeIcon from "@/assets/icons/LandingSlider/LikeIcon.svg";
-import SoundIcon from "@/assets/icons/LandingSlider/SoundIcon.svg";
-import AddFavIcon from "@/assets/icons/LandingSlider/AddFavIcon.svg";
+import PlayIcon from "@/assets/icons/LandingIcons/LandingSlider/PlayIcon.svg";
+import LikeIcon from "@/assets/icons/LandingIcons/LandingSlider/LikeIcon.svg";
+import SoundIcon from "@/assets/icons/LandingIcons/LandingSlider/SoundIcon.svg";
+import AddFavIcon from "@/assets/icons/LandingIcons/LandingSlider/AddFavIcon.svg";
 
-const SliderCard = () => {
+const LandingSliderCard = () => {
   return (
     <div className="relative h-full w-full">
       <img
@@ -93,4 +93,4 @@ const SliderCard = () => {
   );
 };
 
-export default SliderCard;
+export default LandingSliderCard;

@@ -15,11 +15,11 @@ const NavList = () => {
           key={id}
           variant="small"
           color="blue-gray"
-          className="p-1 font-medium text-[14]"
+          className="p-1 text-[15px] font-semibold md:text-[14px] md:font-medium"
         >
           <Link
             href={link}
-            className={`${pathname === link ? "rounded-[8px] md:h-[45px] md:bg-black12 md:px-2 md:text-white" : "font-regular text-grey75"} flex text-center md:items-center md:justify-center`}
+            className={`${pathname === link ? "rounded-[8px] md:h-[45px] md:bg-black12 md:px-2 md:text-white" : "font-regular text-grey75"} flex text-center md:items-center md:justify-center `}
           >
             {title}
           </Link>

@@ -1,9 +1,9 @@
-import ChevronLeftIcon from "@/assets/icons/LandingSlider/ChevronLeftIcon.svg";
-import ChevronRightIcon from "@/assets/icons/LandingSlider/ChevronRightIcon.svg";
-import CarouselStylesType from "@/types/LandingSliderTypes";
 import Image from "next/image";
+import CarouselStylesType from "@/types/CarouselStylesType";
+import ChevronLeftIcon from "@/assets/icons/LandingIcons/LandingSlider/ChevronLeftIcon.svg";
+import ChevronRightIcon from "@/assets/icons/LandingIcons/LandingSlider/ChevronRightIcon.svg";
 
-export const SliderTheme: CarouselStylesType = {
+export const LandingSliderTheme: CarouselStylesType = {
   carousel: {
     defaultProps: {
       prevArrow: ({ loop, handlePrev, firstIndex }) => {
