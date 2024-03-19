@@ -2,8 +2,6 @@ import React from "react";
 import type { Metadata } from "next";
 import { manrope } from "utils/fonts";
 import "./globals.css";
-import HeaderNavbar from "@/components/shared/Header/Navbar";
-import { ClerkProvider } from "@clerk/nextjs";
 
 export const metadata: Metadata = {
   title: "Movie List",
@@ -16,13 +14,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider>
-      <html lang="en" className="bg-black08">
-        <body className={`${manrope} font-sans`}>
-          <HeaderNavbar />
-          {children}
-        </body>
-      </html>
-    </ClerkProvider>
+    <html lang="en" className="bg-black08">
+      <body className={`${manrope} font-sans`}>{children}</body>
+    </html>
   );
 }

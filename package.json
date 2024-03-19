@@ -15,8 +15,6 @@
     "test-all": "yarn run check-format && yarn run check-lint && yarn run check-types && yarn run build"
   },
   "dependencies": {
-    "@clerk/nextjs": "^4.29.7",
-    "@material-tailwind/react": "^2.1.9",
     "@tanstack/react-query": "^5.22.2",
     "axios": "^1.6.7",
     "eslint-plugin-react-hooks": "^4.6.0",
@@ -24,8 +22,7 @@
     "prettier-plugin-tailwindcss": "^0.5.11",
     "react": "^18.2.0",
     "react-dom": "^18",
-    "save-dev": "^0.0.1-security",
-    "swiper": "^11.0.6"
+    "save-dev": "^0.0.1-security"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",
