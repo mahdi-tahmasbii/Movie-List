@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-black08">
+    <html lang="en">
       <body className={`${manrope} font-sans`}>{children}</body>
     </html>
   );
